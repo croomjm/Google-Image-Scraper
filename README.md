@@ -4,7 +4,7 @@
 [review]: /image_review.gif "ReviewImages() in action!"
 
 # Google-Image-Scraper
-To assist with my Udacity Robotics Software Degree Neural Network Inference project, I wrote a couple of classes to systematically pull training images from Google image search then scale and crop them to the required size for the neural network. I accomplished this using a few primary libraries:
+To assist with [my Udacity Robotics Software Degree](https://confirm.udacity.com/AQCTW57M) Neural Network Inference project, I wrote a couple of classes to systematically pull training images from Google image search then scale and crop them to the required size for the neural network. I accomplished this using a few primary libraries:
 * [Selenium](https://www.seleniumhq.org/projects/webdriver/)
 * [OpenCV2](https://opencv.org/)
 * [Numpy](http://www.numpy.org/)
@@ -20,7 +20,7 @@ The `ReviewImages()` class leverages Numpy and OpenCV to resize and crop the ima
 ![ReviewImages() in action][review]
 
 ## Example Results
-For my Udacity Robotics Software Engineer Nanodegree machine learning inference project, I scraped Google for images of a number of well-known politicians' faces to build up a training set. I then used Nvidia's digits platform (thanks for the freebie!) to train a built-in GoogLeNet CNN to recognize the politicians. Turns out, GoogLeNet works pretty well (`¯\_(ツ)_/¯`). It was even able to generalize to recognize artwork depicting various politicians (e.g. the picture of HRC below).
+For my Udacity Robotics Software Engineer Nanodegree machine learning inference project, I scraped Google for images of a number of well-known politicians' faces to build up a training set. I then used Nvidia's digits platform (thanks for the freebie!) to train a built-in GoogLeNet CNN to recognize the politicians. Turns out, GoogLeNet works pretty well (`¯\_(ツ)_/¯`). It was even able to generalize to recognize artwork depicting various politicians (e.g. the picture of HRC below). See my full results in a pdf report [here](politician-facenet_report.pdf).
 
 [![Punk Hilary Clinton][Clinton_Punk]](https://www.thecut.com/2017/12/hillary-clinton-painting-causes-bomb-scare-at-art-miami.html)
 
